@@ -39,6 +39,13 @@ unsigned char _040_WB( unsigned long address, unsigned char data ) {
 
 ///Read byte
 unsigned char _040_RB( unsigned long address ) {
+	//tbd
+	
+	return 0;
+}
+
+///Receive commands
+unsigned char _040_R( unsigned long address ) {
 	unsigned char data[3] = {0x00, 0x00, 0x00}; //<f returns this
 	int i;
 	int n;
@@ -120,6 +127,13 @@ unsigned char _040_RB( unsigned long address ) {
 	data[2] = __040_PR( data [0], data[1] );
 	
 	return data[2];
+}
+
+///Send commands
+unsigned char _040_S( unsigned long address, unsigned char data ) {
+	//tbd
+	
+	return 0;
 }
 
 ///Full erase

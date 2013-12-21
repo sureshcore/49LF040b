@@ -27,8 +27,10 @@
 
 ///Public function declarations
 unsigned int _040_INIT( void );//init driver
-unsigned char _040_WB( unsigned long , unsigned char );//Write Byte
-unsigned char _040_RB( unsigned long );//Read byte
+unsigned char _040_WB( unsigned long , unsigned char );	//Write Byte
+unsigned char _040_RB( unsigned long );					//Read byte
+unsigned char _040_S( unsigned long, unsigned char  );	//Send commands
+unsigned char _040_R( unsigned long );					//Read commands
 unsigned char _040_FE( void );//Full erase
 
 ///Private declarations
