@@ -1,1 +1,10 @@
-yeah read meeeee heha
+You will need:
+	msp430-gcc
+	msp430flasher in your PATH
+	and obviusly msp430 hardware.
+
+I used msp430G2553, which came with my 1.4v launchpad.
+So yaeh. Also you will probably need to know how to C 
+in order to fix my shit-tier code.
+
+And public domain. Because who cares.
